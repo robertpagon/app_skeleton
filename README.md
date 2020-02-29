@@ -4,6 +4,19 @@ Flask starter project for [Cookiecutter](https://github.com/audreyr/cookiecutter
 
 [![Build Status](https://travis-ci.org/testdrivenio/cookiecutter-flask-skeleton.svg?branch=master)](https://travis-ci.org/testdrivenio/cookiecutter-flask-skeleton)
 
+This project is used to generate a basic Flask project with Cookiecutter. It's designed for a web application that uses server-side templating to render Jinja templates on the front-end.
+
+Flask Extensions:
+
+1. Flask-Bcrypt
+1. Flask-Bootstrap
+1. Flask-DebugToolbar
+1. Flask-Login
+1. Flask-Migrate
+1. Flask-SQLAlchemy
+1. Flask-Testing
+1. Flask-WTF
+
 ## Quick Start
 
 Install Cookiecutter globally:
