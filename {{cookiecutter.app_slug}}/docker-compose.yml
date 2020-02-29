@@ -1,4 +1,4 @@
-version: '3.5'
+version: '3.7'
 
 services:
 
@@ -27,8 +27,8 @@ services:
     build:
       context: ./project/server/db
       dockerfile: Dockerfile
-    ports:
-      - 5435:5432
+    expose:
+      - 5432
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres

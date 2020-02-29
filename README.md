@@ -2,7 +2,7 @@
 
 Flask starter project for [Cookiecutter](https://github.com/audreyr/cookiecutter).
 
-[![Build Status](https://travis-ci.org/realpython/cookiecutter-flask-skeleton.svg?branch=master)](https://travis-ci.org/realpython/cookiecutter-flask-skeleton)
+[![Build Status](https://travis-ci.org/testdrivenio/cookiecutter-flask-skeleton.svg?branch=master)](https://travis-ci.org/testdrivenio/cookiecutter-flask-skeleton)
 
 ## Quick Start
 
@@ -15,7 +15,7 @@ $ pip install cookiecutter
 Generate the boilerplate:
 
 ```sh
-$ cookiecutter https://github.com/realpython/cookiecutter-flask-skeleton.git
+$ cookiecutter https://github.com/testdrivenio/cookiecutter-flask-skeleton.git
 ```
 
 Once generated, review the setup guides, within the newly created project directory, to configure the app:

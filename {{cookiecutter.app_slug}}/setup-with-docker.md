@@ -2,7 +2,7 @@
 
 Use this guide if you want to use Docker in your project.
 
-> Built with Docker v18.03.1-ce.
+> Built with Docker v19.03.5.
 
 ## Getting Started
 
@@ -15,12 +15,12 @@ $ docker-compose up -d --build
 By default the app is set to use the production configuration. If you would like to use the development configuration, you can alter the `APP_SETTINGS` environment variable:
 
 ```
-APP_SETTINGS="project.server.config.DevelopmentConfig"
+APP_SETTINGS=project.server.config.DevelopmentConfig
 ```
 
 
 Create the database:
--
+
 ```sh
 $ docker-compose run web python manage.py create-db
 $ docker-compose run web python manage.py db init

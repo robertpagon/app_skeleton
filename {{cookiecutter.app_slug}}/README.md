@@ -11,7 +11,7 @@ $ pip install cookiecutter
 Generate the boilerplate:
 
 ```sh
-$ cookiecutter https://github.com/realpython/cookiecutter-flask-skeleton.git
+$ cookiecutter https://github.com/testdrivenio/cookiecutter-flask-skeleton.git
 ```
 
 Review the set up guides to configure the app:
