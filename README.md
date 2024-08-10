@@ -1,6 +1,6 @@
 # Flask Skeleton
 
-Flask starter project for [Cookiecutter](https://github.com/audreyr/cookiecutter).
+Flask app starter project using [Cookiecutter](https://github.com/audreyr/cookiecutter).
 
 [![Build Status](https://travis-ci.org/testdrivenio/cookiecutter-flask-skeleton.svg?branch=master)](https://travis-ci.org/testdrivenio/cookiecutter-flask-skeleton)
 
