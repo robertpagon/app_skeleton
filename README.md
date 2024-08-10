@@ -2,7 +2,7 @@
 
 Flask app starter project using [Cookiecutter](https://github.com/audreyr/cookiecutter).
 
-[![Build Status](https://travis-ci.org/testdrivenio/cookiecutter-flask-skeleton.svg?branch=master)](https://travis-ci.org/testdrivenio/cookiecutter-flask-skeleton)
+[![Build Status](https://travis-ci.org/robertpagon/app-skeleton.svg?branch=master)](https://travis-ci.org/robertpagon/app-skeleton)
 
 This project is used to generate a basic Flask project with Cookiecutter. It's designed for a web application that uses server-side templating to render Jinja templates on the front-end.
 
@@ -28,7 +28,7 @@ $ pip install cookiecutter
 Generate the boilerplate:
 
 ```sh
-$ cookiecutter https://github.com/testdrivenio/cookiecutter-flask-skeleton.git
+$ cookiecutter https://github.com/robertpagon/app-skeleton.git
 ```
 
 Once generated, review the setup guides, within the newly created project directory, to configure the app:
