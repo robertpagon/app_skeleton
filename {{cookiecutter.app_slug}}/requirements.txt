@@ -1,13 +1,15 @@
-coverage>=4.5.4
-flake8==3.7.9
-Flask==1.1.1
-Flask-Bcrypt==0.7.1
+# Ovo su novije verzije na 10.08.2024.
+# Ali nije testirano. Valjda radi sve skupa. Pokazat će se u korištenju radi li.
+coverage==7.6.1
+flake8==7.1.1
+Flask==3.0.3
+Flask-Bcrypt==1.0.1
 Flask-Bootstrap==3.3.7.1
-Flask-DebugToolbar==0.11.0
-Flask-Login==0.5.0
-Flask-Migrate==2.5.2
-Flask-SQLAlchemy==2.4.1
-Flask-Testing==0.7.1
-Flask-WTF==0.14.3
-psycopg2-binary==2.8.4
-Werkzeug==0.16.1
+Flask-DebugToolbar==0.15.1
+Flask-Login==0.6.3
+Flask-Migrate==4.0.7
+Flask-SQLAlchemy==3.1.1
+Flask-Testing==0.8.1
+Flask-WTF==1.2.1
+psycopg2-binary==2.9.9
+Werkzeug==3.0.3

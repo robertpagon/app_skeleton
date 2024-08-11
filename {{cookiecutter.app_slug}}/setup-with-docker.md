@@ -18,18 +18,30 @@ By default the app is set to use the production configuration. If you would like
 APP_SETTINGS=project.server.config.DevelopmentConfig
 ```
 
+Možeš mu promijeniti port na kojem radi:
+```
+$ export FLASK_RUN_PORT=5183 # ako nećeš da bude na portu 5000
+```
 
 Create the database:
 
 ```sh
-$ docker-compose run web python manage.py create-db
-$ docker-compose run web python manage.py db init
-$ docker-compose run web python manage.py db migrate
-$ docker-compose run web python manage.py create-admin
-$ docker-compose run web python manage.py create-data
+docker-compose run web python manage.py create-db
+docker-compose run web python manage.py db init
+docker-compose run web python manage.py db migrate
+docker-compose run web python manage.py create-admin
+docker-compose run web python manage.py create-data
+```
+
+### Run the Application
+
+```sh
+docker-compose run web python manage.py run
 ```
 
 Access the application at the address [http://localhost:5002/](http://localhost:5002/)
+
+ili na 5183 ako si promijenio port kao u gornjem primjeru.
 
 ### Testing
 

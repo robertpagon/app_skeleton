@@ -28,7 +28,7 @@ $ pip install cookiecutter
 Generate the boilerplate:
 
 ```sh
-$ cookiecutter https://github.com/robertpagon/app-skeleton.git
+$ cookiecutter https://github.com/robertpagon/app_skeleton.git
 ```
 
 Once generated, review the setup guides, within the newly created project directory, to configure the app:

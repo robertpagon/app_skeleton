@@ -5,6 +5,9 @@ Use this guide if you do NOT want to use Docker in your project.
 ## Getting Started
 
 Create and activate a virtual environment, and then install the requirements.
+```sh
+$ pip install -r requirements.txt
+```
 
 ### Set Environment Variables
 
@@ -14,6 +17,7 @@ Update *project/server/config.py*, and then run:
 $ export APP_NAME="{{cookiecutter.app_name}}"
 $ export APP_SETTINGS=project.server.config.ProductionConfig
 $ export FLASK_DEBUG=0
+$ export FLASK_RUN_PORT=5183 # ako nećeš da bude na portu 5000
 ```
 
 By default the app is set to use the production configuration. If you would like to use the development configuration, you can alter the `APP_SETTINGS` environment variable:
@@ -39,6 +43,8 @@ $ python manage.py run
 ```
 
 Access the application at the address [http://localhost:5000/](http://localhost:5000/)
+
+ili na 5183 ako si promijenio port kao u gornjem primjeru.
 
 ### Testing
 
